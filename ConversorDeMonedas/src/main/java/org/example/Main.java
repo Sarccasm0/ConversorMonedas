@@ -13,7 +13,6 @@ public class Main {
 
 
     private static final Dotenv dotenv = Dotenv.load();
-
     private static final String API_KEY = dotenv.get("FIXE_API_KEY");
     private static final String BASE_URL = dotenv.get("FIXE_API_BASE_URL");
 
